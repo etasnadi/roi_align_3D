@@ -18,7 +18,7 @@ Building
 --------
 
 There are two options for building the kernels:
-* With CUDA toolkit and gcc: CPU + CUDA: `mkdir build && build all `
+* With CUDA toolkit and gcc: CPU + CUDA: `mkdir build && make all `
 * With GCC only: `mkdir build && build no_cuda`
 
 Tested with Tensorflow version `2.14.0` and cuda toolkit `11.8`.
